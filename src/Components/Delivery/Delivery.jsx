@@ -8,8 +8,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><Percent size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Discount</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">every week new sales</p>
+                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Diskon</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">Promo baru setiap minggu</p>
                         </div>
                     </div>
                 </div>
@@ -18,8 +18,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><Truck size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Free Delivery</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">100% Free for all orders</p>
+                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Pengantaran Gratis</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">100% Gratis untuk semua Pesanan</p>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><Clock3 size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Great Support 24/7</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">We care your experiences</p>
+                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Dukungan Terbaik 24/7</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">Kami peduli dengan pengalaman Anda</p>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ const Delivery = () => {
                     <div className="flex items-center gap-4">
                         <p><ShieldCheck size='3rem' /></p>
                         <div>
-                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Secure Payment</h4>
-                            <p className="text-sm text-[#9a9caa] font-inter font-normal">100% Secure Payment Method</p>
+                            <h4 className="text-base text-[#272343] capitalize font-inter font-medium mb-2.5">Pembayaran Aman</h4>
+                            <p className="text-sm text-[#9a9caa] font-inter font-normal">100% Metode Pembayaran Aman</p>
                         </div>
                     </div>
                 </div>

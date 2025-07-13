@@ -27,9 +27,8 @@ const Footer = () => {
               </div>
 
               <p className="text-base text-[#EB89B5] font-inter font-normal mb-4 max-w-[350px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus repellat vero nulla! Quibusdam, reiciendis maiores
-                fugiat atque aliquam molestiae vero?
+                Kami menyediakan berbagai jenis kursi terbaik untuk kenyamanan Anda. 
+                Temukan pilihan produk dengan kualitas tinggi dan desain menarik.
               </p>
 
               <div className="footer_social flex items-center gap-3">
@@ -53,7 +52,7 @@ const Footer = () => {
 
             <div className="footer_wrapper">
               <h3 className="text-xl text-[#EB89B5] font-inter font-medium uppercase">
-                category
+                Kategori
               </h3>
               <ul className="space-y-2 mt-4">
                 <li>
@@ -63,27 +62,27 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    armchair
+                    kursi berlengan
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    wing chair
+                    kursi sayap
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    desk chair
+                    kursi meja
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    wooden chair
+                    kursi kayu
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    park bench
+                    bangku taman
                   </Link>
                 </li>
               </ul>
@@ -91,27 +90,27 @@ const Footer = () => {
 
             <div className="footer_wrapper">
               <h3 className="text-xl text-[#EB89B5] font-inter font-medium uppercase">
-                support
+                dukungan
               </h3>
               <ul className="space-y-2 mt-4">
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    help & support
+                    bantuan & dukungan
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    tearms & condition
+                    syarat & kententuan
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    privacy policy
+                    kebijakan privasi
                   </Link>
                 </li>
                 <li>
                   <Link className="text-base text-[#EB89B5] font-inter font-normal capitalize">
-                    help
+                    bantuan
                   </Link>
                 </li>
               </ul>
@@ -119,7 +118,7 @@ const Footer = () => {
 
             <div className="newsletter">
               <h3 className="text-xl text-[#EB89B5] font-inter font-medium uppercase">
-                newsletter
+                buletin
               </h3>
               <form
                 action="#"
@@ -127,14 +126,14 @@ const Footer = () => {
               >
                 <input
                   type="email"
-                  placeholder="Your Email.."
+                  placeholder="Email Anda.."
                   className="max-w-[285px] w-full h-[46px] border-[#e1e3e5] border-[1px] rounded-lg pl-2"
                 />
                 <button
                   type="submit"
                   className="text-base text-white font-semibold capitalize w-[127px] h-[46px] bg-[#EB89B5] rounded-lg cursor-pointer"
                 >
-                  Subscribe
+                  Langganan
                 </button>
               </form>
             </div>

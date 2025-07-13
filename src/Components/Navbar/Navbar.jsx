@@ -23,7 +23,7 @@ const Navbar = () => {
                 className="btn m-1 flex items-center gap-5 capitalize"
               >
                 {" "}
-                <Menu /> all categories
+                <Menu /> Semua Kategori
               </div>
               <ul
                 tabIndex={0}
@@ -52,26 +52,26 @@ const Navbar = () => {
                 to="/"
                 className="text-sm text-[#029fae] font-inter font-medium capitalize"
               >
-                Home
+                Beranda
               </NavLink>
               <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
-                shop
+                Toko
               </NavLink>
               <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
-                product
+                Produk
               </NavLink>
               <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
-                pages
+                Halaman
               </NavLink>
               <NavLink className="text-sm text-[#636270] font-inter font-medium capitalize">
-                about
+                Tentang Kami
               </NavLink>
             </nav>
           </div>
 
           <div className="navbar_bottom_right">
             <p className="text-sm text-[#636270] font-inter font-normal capitalize">
-              contact: <span className="text-[#272343]">(808)555-0111</span>
+              kontak: <span className="text-[#272343]">6285752659893</span>
             </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ const Navbar = () => {
             <form action="#" className="max-w-[443px] h-[44px] relative">
               <input
                 type="text"
-                placeholder="Search here..."
+                placeholder="Cari di sini..."
                 className="max-w-[443px] w-full h-full bg-white rounded-lg  pl-4"
               />
 
@@ -104,7 +104,7 @@ const Navbar = () => {
           {/* navbar middle right  */}
           <div className="navbar_middle_right flex items-center gap-4">
             <button className="btn capitalize">
-              <ShoppingCart /> cart{" "}
+              <ShoppingCart /> Keranjang{" "}
               <div className="badge badge-sm bg-[#EB89B5]">2</div>
             </button>
             <button className="btn capitalize">
@@ -121,12 +121,12 @@ const Navbar = () => {
               >
                 <li>
                   <a>
-                    <Link>Account</Link>
+                    <Link>Akun</Link>
                   </a>
                 </li>
                 <li>
                   <a>
-                    <Link>Logout</Link>
+                    <Link>Keluar</Link>
                   </a>
                 </li>
               </ul>

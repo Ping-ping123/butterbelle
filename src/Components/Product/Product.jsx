@@ -11,32 +11,32 @@ const Product = () => {
   const productTitle = [
     {
       id: 0,
-      title: "all",
-      product: "all",
+      title: "semua",
+      product: "semua",
     },
     {
       id: 1,
-      title: "newest",
+      title: "terbaru",
       product: "newest",
     },
     {
       id: 2,
-      title: "trending",
-      product: "trending",
+      title: "sedang tren",
+      product: "sedang tren",
     },
     {
       id: 3,
-      title: "best seller",
-      product: "best_seller",
+      title: "produk terlaris",
+      product: "produk terlaris",
     },
   ];
 
   const products = [
     {
-      title: "library stool",
+      title: "strawberry roll cake",
       status: "New",
       price: "$250",
-      image: "/src/assets/products/cake.jpg",
+      image: "/src/assets/products/strawberry-roll-cake.jpeg",
       currentPrice: "$200",
       product: "newest",
     },
@@ -216,7 +216,7 @@ const Product = () => {
     <div className="lg:container mx-auto">
       <div className="flex flex-col items-center justify-center">
         <SectionTitle
-          title={"our product"}
+          title={"produk habis"}
           textAlign={"center"}
           mb={"mb-5"}
         ></SectionTitle>

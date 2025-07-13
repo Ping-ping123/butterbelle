@@ -9,27 +9,27 @@ const Client = () => {
     const clientSays = [
         {
             id: 1,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'Kue-kuenya lembut, manisnya pas, dan dikemas dengan sangat cantik. Anak-anak saya sangat suka! Saya pasti akan order lagi untuk acara keluarga berikutnya.',
+            name: 'Aulia Rahma',
+            position: 'Ibu Rumah Tangga',
         },
         {
             id: 2,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'Pelayanannya cepat dan ramah, produk datang tepat waktu dan sesuai ekspektasi. Recommended banget buat kamu yang cari camilan premium!',
+            name: 'Bapak Hendra',
+            position: 'Pegawai Kantor',
         },
         {
             id: 3,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'Awalnya coba-coba beli karena penasaran, eh ternyata enak banget! Kualitas dan rasanya gak kalah sama bakery mahal. Terima kasih sudah bikin hari saya lebih manis',
+            name: 'Claudia ',
+            position: 'Mahasiswa',
         },
         {
             id: 4,
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, sit amet eget. lorem50',
-            name: 'John Doe',
-            position: 'CEO, Company',
+            description: 'Packaging-nya rapi, produk tetap utuh saat sampai. Rasanya juga otentik dan bikin nagih. Saya suka konsep estetik dan handmade-nya!',
+            name: 'Niko Aditya',
+            position: 'Freelencer',
         },
     ]
 

@@ -3,8 +3,8 @@ import { MoveRight } from "lucide-react";
 const Banner = () => {
   const product = {
     id: 1,
-    title: "Tasty and Warm",
-    subTitle: "welcome to ButterBelle",
+    title: "Manis and Hangat",
+    subTitle: "Selamat Datang di ButterBelle",
     image: "/src/assets/Banner/bannerbb.png",
   };
 

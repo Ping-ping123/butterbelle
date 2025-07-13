@@ -8,24 +8,24 @@ const Categories = () => {
 
     const categories = [
         {
-            title: 'Placeholder',
+            title: 'Korean Cream Sandwich',
             products: '3,584 Products',
-            image: '/src/assets/categories/cookie.jpg',
+            image: '/src/assets/categories/Korean Cream Sandwich.jpeg',
         },
         {
-            title: 'Placeholder',
+            title: 'Martabak Manis Mini',
             products: '157 Products',
-            image: '/src/assets/categories/cookie.jpg',
+            image: '/src/assets/categories/martabak manis mini.jpeg',
         },
         {
-            title: 'Placeholder',
+            title: 'Mini Swiss Roll Cakes',
             products: '154 Products',
-            image: '/src/assets/categories/cookie.jpg',
+            image: '/src/assets/categories/Mini Swiss Roll Cakes .jpeg',
         },
         {
-            title: 'Placeholder',
+            title: 'Tar Susu ',
             products: '154 Products',
-            image: '/src/assets/categories/cookie.jpg',
+            image: '/src/assets/categories/tarsusu.jpeg',
         },
 
     ];
@@ -42,7 +42,7 @@ const Categories = () => {
     return (
         <div>
             <div className="lg:container mx-auto ">
-                <SectionTitle title="Top Categories" mb='mb-11'></SectionTitle>
+                <SectionTitle title="Kategori Terpopuler" mb='mb-11'></SectionTitle>
 
                 <div className="slider-container features_slider w-full h-full">
                     <Slider {...settings}>

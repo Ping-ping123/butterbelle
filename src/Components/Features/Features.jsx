@@ -132,7 +132,7 @@ const Features = () => {
                                             {feature?.currentPrice || feature?.price}
                                             {
                                                 feature?.currentPrice && (
-                                                    <span className="text-sm text-[#9a9caa] font-inter font-normal">
+                                                    <span className="text-sm text-[#9a9caa] font-inter font-normal line-through">
                                                         {feature?.price}
                                                     </span>
                                                 )

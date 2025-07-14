@@ -8,54 +8,54 @@ const Recent = () => {
 
     const features = [
         {
-            title: 'library stool',
+            title: 'Cupcake Karakter',
             status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_1.png',
-            currentPrice: '$200',
+            price: 'Rp 19.000',
+            image: '/src/assets/features/cupcake-karakter.jpeg',
+            currentPrice: 'Rp 17.000',
         },
         {
-            title: 'library stool Chair',
+            title: 'Roti Krim Kacang',
             status: 'Sales',
-            price: '$250',
-            image: '/src/assets/features/product_2.png',
+            price: 'Rp 6.000',
+            image: '/src/assets/features/roti-krim-kacang.jpeg',
         },
         {
-            title: 'library stool Chair',
-            price: '$250',
-            image: '/src/assets/features/product_3.png',
+            title: 'Dorayaki Gulung',
+            price: 'Rp 10.000',
+            image: '/src/assets/features/dorayaki-gulung.jpeg',
         },
         {
-            title: 'library stool Chair',
+            title: 'Mini Bundt Cake',
             status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_4.png',
-            currentPrice: '$200',
+            price: 'Rp 10.000',
+            image: '/src/assets/features/mini-cake.jpeg',
+            currentPrice: 'Rp 12.000',
         },
         {
-            title: 'library stool',
+            title: 'Roti Abon Mayones',
             status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_1.png',
-            currentPrice: '$200',
+            price: 'Rp 15.000',
+            image: '/src/assets/features/roti-abon-mayones.jpeg',
+            currentPrice: 'Rp 18.000',
         },
         {
-            title: 'library stool Chair',
+            title: 'Sandwich Egg Drop',
             status: 'Sales',
-            price: '$250',
-            image: '/src/assets/features/product_2.png',
+            price: 'Rp 12.000',
+            image: '/src/assets/features/sandiwch-egg-drop.jpeg',
         },
         {
-            title: 'library stool Chair',
-            price: '$250',
-            image: '/src/assets/features/product_3.png',
+            title: 'Mini Tart Buah',
+            price: 'Rp 8.000',
+            image: '/src/assets/features/mini-tart.jpeg',
         },
         {
-            title: 'library stool Chair',
+            title: 'Mini Chiffon Cake',
             status: 'New',
-            price: '$250',
-            image: '/src/assets/features/product_4.png',
-            currentPrice: '$200',
+            price: 'Rp 12.000',
+            image: '/src/assets/features/chiffon-cake.jpeg',
+            currentPrice: 'Rp 15.000',
         },
     ];
 
@@ -83,7 +83,7 @@ const Recent = () => {
                                         {
                                             feature?.status && (
                                                 <div className="absolute top-4 left-4 bg-[#007580] text-white px-2 py-1 rounded-lg">
-                                                    <button className="text-sm font-inter font-normal">{feature?.status}</button>
+                                                    <button className="text-sm font-inter font-normal ">{feature?.status}</button>
                                                 </div>
                                             )
                                         }
@@ -97,7 +97,7 @@ const Recent = () => {
                                             {feature?.price} 
                                             {
                                                 feature?.currentPrice && (
-                                                    <span className="text-sm text-[#EB89B5] font-inter font-normal">{feature?.currentPrice}</span>
+                                                    <span className="text-sm text-[#EB89B5] font-inter font-normal line-through">{feature?.currentPrice}</span>
                                                 )
                                             }
                                         </p>

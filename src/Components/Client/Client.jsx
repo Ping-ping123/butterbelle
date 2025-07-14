@@ -45,7 +45,7 @@ const Client = () => {
     return (
         <div className="lg:container mx-auto ">
 
-            <SectionTitle title="What is client says about us" mb='mb-11'></SectionTitle>
+            <SectionTitle title="Apa yang klien katakan tentang kami" mb='mb-11'></SectionTitle>
 
             <div className="slider-container w-full h-full">
                 <Slider {...settings}>

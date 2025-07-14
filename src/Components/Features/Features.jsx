@@ -54,7 +54,7 @@ const Features = () => {
             title: 'Strawberry Shortcake',
             status: 'New',
             price: 'Rp 28.000',
-            image: '/src/assets/features/cake.jpg',
+            image: '/src/assets/features/strawbery-shortcake.jpg',
             currentPrice: 'Rp 24.000',
         },
     ];

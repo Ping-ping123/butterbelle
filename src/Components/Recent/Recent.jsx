@@ -70,7 +70,7 @@ const Recent = () => {
     return (
         <div className="lg:container mx-auto">
 
-            <SectionTitle title="Recently Added" mb={'mb-11'} />
+            <SectionTitle title="Baru ditambahkan" mb={'mb-11'} />
             
 
             <div className="slider-container features_slider w-full h-full">
